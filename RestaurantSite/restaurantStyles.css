@@ -1,0 +1,53 @@
+﻿/*
+Creator: Lydia Strebe
+Date created: 1/18/20
+Date last modified: 1/26/20
+*/
+
+header {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+    border-top: thin black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    border-top: thin black solid;
+    border-bottom: thin black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav .btn {
+    background-color: lightblue;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav .btn:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav .btn:visited {
+    color: mediumpurple;
+    text-decoration: underline;
+}
+
+nav .btn:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav .btn:active {
+    text-decoration: none;
+    font-weight:normal;
+}
+
